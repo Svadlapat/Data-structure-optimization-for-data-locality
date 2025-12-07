@@ -2,7 +2,6 @@
 hpc_data_structure_optimization.py
 
 Demonstration of data structure optimization for data locality
-in the style of the Azad et al. (2023) HPC performance bugs study.
 
 Baseline: Python list-of-lists with explicit loops.
 Optimized: NumPy 2D array with vectorized operations (contiguous layout).
